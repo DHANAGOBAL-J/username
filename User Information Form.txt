@@ -1,0 +1,40 @@
+User Information Form
+This project implements a User Information Form that collects user details such as name, email, date of birth, phone, address, city, state, ZIP code, and country. The form includes additional features such as dark/light mode toggle, table display of submitted data, and basic input validation.
+
+Features
+Dark/Light Mode: A toggle button to switch between dark and light themes.
+Date Picker: A flatpickr date picker for the Date of Birth field.
+Form Validation: Required fields with validation for each form input.
+Submit Button: Submits user information and adds it to a table.
+Clear Button: Clears all form fields.
+Search Button: Placeholder for future search functionality.
+Sort Button: Placeholder for future sorting functionality.
+Table View: Displays submitted user information with options for future actions like edit or delete.
+
+
+Technologies Used
+HTML: Basic structure and form elements.
+CSS: Custom styles for layout and theming.
+Font Awesome: Icons used for buttons.
+Flatpickr: Datepicker for selecting the date of birth.
+JavaScript: Handles form submission, clearing, and theme switching.
+
+
+How It Works
+Form Input: The user fills out the form with required fields like name, email, date of birth, phone, and address details.
+Form Validation: Once the form is submitted, the fields are validated for required inputs.
+Data Submission: Upon successful validation, the user data is displayed in a table below the form.
+Actions: The table provides a place to display the user's submitted data with placeholders for edit, delete, and search actions.
+Dark/Light Mode Toggle
+The Dark Mode and Light Mode can be toggled using the button in the upper-right corner.
+The default mode is Light Mode, and it can be switched to Dark Mode for a darker theme.
+To Do
+Implement the Search functionality to search through the submitted user data in the table.
+Implement Sorting functionality to sort the table based on different fields (e.g., Name, Email, Date of Birth).
+Add edit and delete actions in the table for modifying or removing submitted entries.
+Contributing
+Fork the repository.
+Create a new branch (git checkout -b feature-name).
+Make your changes and commit them (git commit -m 'Add feature').
+Push to the branch (git push origin feature-name).
+Create a new pull request.
